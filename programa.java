@@ -18,6 +18,7 @@ public class programa {
 		
 		System.out.println ("Insira o preço individual: ");
 		produto.preco = teclado.nextDouble();
-
+		
+		System.out.println ("Confirmação: "+produto.produto+", Estoque: "+produto.quantidade+" Preço: "+produto.preco);
 		}
 	}
