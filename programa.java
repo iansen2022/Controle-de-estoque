@@ -10,5 +10,14 @@ public class programa {
 		
 		produtos produto = new produtos ();
 		
+		System.out.println ("Qual produto deseja cadastrar: ");
+		produto.produto = teclado.next();
+		
+		System.out.println ("Insira a quantidade: ");
+		produto.quantidade = teclado.nextDouble ();
+		
+		System.out.println ("Insira o preço individual: ");
+		produto.preco = teclado.nextDouble();
+
 		}
 	}
