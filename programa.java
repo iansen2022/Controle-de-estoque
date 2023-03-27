@@ -25,6 +25,10 @@ public class programa {
 		int estoque = teclado.nextInt();
 		produto.addProdutos(estoque);
 		System.out.println ("Atualização: "+produto.produto+", Estoque atual: "+produto.quantidade+" Preço: "+produto.preco);
+		
+		System.out.println ("Foi realizada alguma venda no período? ");
+		estoque = teclado.nextInt();
+		produto.subProdutos(estoque);
 
 	}
 	}
