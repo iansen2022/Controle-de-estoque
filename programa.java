@@ -29,6 +29,9 @@ public class programa {
 		System.out.println ("Foi realizada alguma venda no período? ");
 		estoque = teclado.nextInt();
 		produto.subProdutos(estoque);
-
-	}
+		System.out.println ("Confirmação após vendas: "+produto.produto+", Estoque atual: "+produto.quantidade+" Preço: "+produto.preco+"Valor atual do estoque: R$ "+produto.quantidade*produto.preco);
+		
+		teclado.close();
+		
+		}
 	}
